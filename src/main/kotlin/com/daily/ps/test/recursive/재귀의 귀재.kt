@@ -22,7 +22,7 @@ class `재귀의 귀재` {
         return recursion(s, 0, s.length - 1)
     }
 
-    fun test() {
+    private fun test() {
         val reader = BufferedReader(InputStreamReader(System.`in`))
         val T = reader.readLine().toInt()
         repeat(T) {
