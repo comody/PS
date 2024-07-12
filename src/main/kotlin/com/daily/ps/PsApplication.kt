@@ -25,7 +25,17 @@ fun mainBufferScanner(args: Array<String>) = with(System.`in`.bufferedReader()){
     }
     println("Contents Of an Array: $arr")
 }
+fun mainO(args: Array<String>) = with(System.`in`.bufferedReader()) {
+    val results = mutableListOf<String>()
 
+    val n = readLine().toInt()
+    val length = Math.pow(3.0, n.toDouble()).toInt()
+    val result = CharArray(length) { '-' }
+//    recursive(0, length, result)
+//    results.add(String(result))
+//
+//    results.forEach { println(it) }
+}
 fun main(args: Array<String>) {
     val input = """
         17
