@@ -1,4 +1,4 @@
-package com.daily.ps.test.recursive
+package com.daily.ps.recursive
 
 /* https://www.acmicpc.net/problem/10870 */
 class `피보나치 수 5` {

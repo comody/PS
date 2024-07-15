@@ -1,4 +1,4 @@
-package com.daily.ps.test.recursive
+package com.daily.ps.recursive
 
 /*https://www.acmicpc.net/problem/4779*/
 class `칸토어 집합` {
